@@ -1,0 +1,47 @@
+body {
+    margin:0;
+    padding:0; 
+}
+
+.window-cont {
+    overflow-x: scroll;
+
+    .stuff-cont {
+        display: flex;
+
+        .stuff {
+            min-width:200px;
+            height:100px;
+            margin-left: 60px;
+            text-align: center;
+            vertical-align: middle;
+            background:#888888;
+
+            &.selected{
+                background: orangered;
+            }
+        }
+    }
+
+}
+
+
+.bar-cont{
+    margin: 0 0px;
+    margin-bottom:0px;
+    padding:40px 0;
+    position: relative;
+    display: none;
+    .color-bar{
+        background-color:#aaa;
+        position: relative;
+        height: 2px;
+
+        .bar-bar{
+            position: absolute;
+            width:0%;
+            background:black;
+            height: 2px;
+        }
+    }
+}

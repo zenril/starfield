@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.window-cont {
+  overflow-x: scroll; }
+  .window-cont .stuff-cont {
+    display: flex; }
+    .window-cont .stuff-cont .stuff {
+      min-width: 200px;
+      height: 100px;
+      margin-left: 60px;
+      text-align: center;
+      vertical-align: middle;
+      background: #888888; }
+      .window-cont .stuff-cont .stuff.selected {
+        background: orangered; }
+
+.bar-cont {
+  margin: 0 0px;
+  margin-bottom: 0px;
+  padding: 40px 0;
+  position: relative;
+  display: none; }
+  .bar-cont .color-bar {
+    background-color: #aaa;
+    position: relative;
+    height: 2px; }
+    .bar-cont .color-bar .bar-bar {
+      position: absolute;
+      width: 0%;
+      background: black;
+      height: 2px; }
+
+/*# sourceMappingURL=app.css.map*/
